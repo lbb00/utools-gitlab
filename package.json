@@ -1,0 +1,14 @@
+{
+  "name": "utools-gitlab",
+  "version": "1.0.0",
+  "description": "1. Chrome 书签搜索",
+  "main": "preload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gitbeaker/node": "^35.8.1"
+  }
+}

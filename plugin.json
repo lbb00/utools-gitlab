@@ -1,0 +1,67 @@
+{
+  "version": "0.1.0",
+  "preload": "preload.js",
+  "logo": "gitlab.png",
+  "features": [
+    {
+      "code": "search-gitlab-projects",
+      "explain": "搜索 Projects",
+      "cmds": [
+        {
+          "type": "over",
+          "label": "搜索 Projects",
+          "minLength": 1,
+          "maxLength": 500
+        }
+      ]
+    },
+    {
+      "code": "search-gitlab-issues",
+      "explain": "搜索 Issues",
+      "cmds": [
+        {
+          "type": "over",
+          "label": "搜索 Issues",
+          "minLength": 1,
+          "maxLength": 500
+        }
+      ]
+    },
+    {
+      "code": "search-gitlab-merge-requests",
+      "explain": "搜索 Merge Requests ",
+      "cmds": [
+        {
+          "type": "over",
+          "label": "搜索 Merge Requests",
+          "minLength": 1,
+          "maxLength": 500
+        }
+      ]
+    },
+    {
+      "code": "set-host",
+      "explain": "设置 GitLab Host",
+      "cmds": [
+        {
+          "type": "over",
+          "label": "设置 GitLab Host",
+          "minLength": 1,
+          "maxLength": 500
+        }
+      ]
+    },
+    {
+      "code": "set-token",
+      "explain": "设置 GitLab Token",
+      "cmds": [
+        {
+          "type": "over",
+          "label": "设置 GitLab Token",
+          "minLength": 1,
+          "maxLength": 500
+        }
+      ]
+    }
+  ]
+}
