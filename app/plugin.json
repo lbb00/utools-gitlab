@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "preload": "preload.js",
+  "preload": "dist/preload.js",
   "logo": "gitlab.png",
   "features": [
     {
@@ -42,26 +42,12 @@
     {
       "code": "set-host",
       "explain": "设置 GitLab Host",
-      "cmds": [
-        {
-          "type": "over",
-          "label": "设置 GitLab Host",
-          "minLength": 1,
-          "maxLength": 500
-        }
-      ]
+      "cmds": ["设置 GitLab Host"]
     },
     {
       "code": "set-token",
       "explain": "设置 GitLab Token",
-      "cmds": [
-        {
-          "type": "over",
-          "label": "设置 GitLab Token",
-          "minLength": 1,
-          "maxLength": 500
-        }
-      ]
+      "cmds": ["设置 GitLab Token"]
     }
   ]
 }
