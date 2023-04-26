@@ -13,10 +13,7 @@ export default defineConfig(function (mode) {
         entry: './src/preload.js',
         formats: ['cjs'],
         fileName: 'preload',
-      },
-      rollupOptions: {
-        external: ['@gitbeaker/node'],
-      },
+      }
     },
   }
 })

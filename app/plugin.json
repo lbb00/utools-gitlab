@@ -42,12 +42,12 @@
     {
       "code": "set-host",
       "explain": "设置 GitLab Host",
-      "cmds": ["设置 GitLab Host"]
+      "cmds": ["设置 GitLab Host", "Set GitLab Host"]
     },
     {
       "code": "set-token",
       "explain": "设置 GitLab Token",
-      "cmds": ["设置 GitLab Token"]
+      "cmds": ["设置 GitLab Token", "Set GitLab Token"]
     }
   ]
 }

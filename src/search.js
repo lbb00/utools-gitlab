@@ -1,4 +1,4 @@
-import { Gitlab } from '@gitbeaker/node'
+import { Gitlab } from '@gitbeaker/browser'
 
 function getGitLabConfig() {
   const gitlabHost = utools.dbStorage.getItem('gitlab_host') || ''

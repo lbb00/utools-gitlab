@@ -1,6 +1,6 @@
 {
   "name": "utools-gitlab",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "description": "",
   "main": "preload.js",
   "scripts": {
@@ -9,10 +9,9 @@
   },
   "author": "",
   "license": "The Unlicense",
-  "dependencies": {
-    "@gitbeaker/node": "^35.8.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@gitbeaker/browser": "^35.8.1",
     "rome": "^12.0.0",
     "vite": "^4.3.1"
   }
